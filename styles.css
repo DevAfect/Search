@@ -1,0 +1,208 @@
+.allsearch{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+ul li {
+    margin: 10px;
+
+}
+a:link{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+    text-decoration:underline;
+}
+a:visited, a:active {
+    color:black;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+
+}
+.input {
+    display:flex;
+    z-index:4;
+    height:38px;
+    background: rgba(254, 254, 252, 0.179);
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 240px;
+    margin: 0 auto;
+    width: calc(800px);
+    width:500px;
+    max-width: 585;
+    margin-top: 30px;
+  }
+  .btn-google{
+    box-shadow: 0 0px 0px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #323337;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+.btn-google:hover{
+    box-shadow: 0 1px 0px rgba(0,0,0,.1);
+    background-color: white;
+}
+.miniLogoIcon{
+    display: inline-block;
+    height: 24px;
+    width: 74px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.iconsTop{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.bottom-wrapper {
+    min-height: 100%;
+    margin: 0 auto -60px;
+}
+
+.advancedText{
+    color: #d93025;
+    font-family: arial,sans-serif;
+    font-size: 20px;
+    margin: 25px 35px; 
+ }
+
+ .line{
+    border-bottom: 1px solid #ebebeb;
+
+ }
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  .advInput {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    resize: vertical;
+    height: 20px;
+   align-items: left;
+  }
+  
+  label {
+    padding: 2px 2px 2px 0;
+    display: inline-block;
+  }
+  .container {
+    border-radius: 5px;
+    margin:0px;
+    background-color: #f2f2f200;
+    padding: 10px;
+    margin-left:20px;
+  }
+
+.col20ToDo
+ {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+    margin-left:10px;
+    font-family:arial,sans-serif; 
+    font-size: 14px; 
+    font-weight: bold; 
+    color:black;
+ }
+
+  .col-8 {
+    float: left;
+    width: 13%;
+    margin-top: 6px;
+    margin: 10px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color:black;
+  }
+
+  .col8ToDo {
+    float: left;
+    width: 13%;
+    margin-top: 6px;
+    margin: 10px;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    color:black;
+  }
+  
+  
+  .col-30 {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+  }
+  .col-20{
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+    margin-left:10px;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    color:#7777
+
+  }
+  .btn-primary {
+    font-size:15px;
+    background-color: #3079ed;
+    border: 4px solid #3079ed;
+    color: #fff;
+  }
+
+
+  .btnSubmit{
+    margin-top:5px;
+    width: 43.5%;
+    display:flex;
+    justify-content:flex-end;
+
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-20, .col-30, .col-8,.col8ToDo, .btnSubmit, input[type=submit] {
+      width: 80%;
+      margin-top: 0;
+      margin-right: 5px;
+    }
+    .btnSubmit{
+        width: 80%;
+       margin-top: 5px;
+    }
+    .col20ToDo, .col-20 {
+     display: none;
+    }
+
+  }
